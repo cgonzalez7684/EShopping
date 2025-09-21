@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonModule} from '@angular/material/button';
+import { Dtpicker } from '../dtpicker/dtpicker';
 
 @Component({
   selector: 'app-button',
   standalone:true,
-  imports: [MatButtonModule, MatDividerModule, MatIconModule],
+  imports: [MatButtonModule, MatDividerModule, MatIconModule, Dtpicker],
   templateUrl: './button.html',
   styleUrl: './button.css'
 })
