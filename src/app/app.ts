@@ -12,5 +12,5 @@ import { Slidermonto } from "./shared/components/slidermonto/slidermonto";
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('EShopping');
+  protected readonly title = signal('EShopping2');
 }
