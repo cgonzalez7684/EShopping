@@ -10,4 +10,12 @@ import {MatButtonModule} from '@angular/material/button';
   templateUrl: './button.html',
   styleUrl: './button.css'
 })
-export class Button {}
+export class Button {
+
+  onButtonClick(event: Event) {
+    event.preventDefault();
+    console.log('¡El botón fue clickeado!');
+    alert('Evento ejecutado');
+  }
+
+}
